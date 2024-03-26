@@ -1,0 +1,19 @@
+header{background: #fff;}
+header .header_wrap{ 
+    border: 1px solid red;
+    max-width: 1620px; width: 100%; 
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+header h1{}
+header h1 a{}
+header h1 a img{}
+header nav{}
+header nav > ul{display: flex; text-align: center; font-size: 20px;}
+header nav > ul > li{width: 190px;}
+header nav > ul > li > a.depth1{ display: block; height: 100px; line-height: 100px; font-weight: 500;}
+header nav > ul > li > a.depth1.current{color: #2eb7be;}
+header .sns{display: flex; align-items: center;}
+header .sns li{margin-left: 20px;}
+header .sns li img{width: 36px;}

@@ -1,0 +1,75 @@
+#wrapper{}
+#main_visual{}
+#main_visual img{width: 100%;}
+
+#category{
+    background: url(../images/main/category_bg.png) no-repeat center / cover;
+    height: 430px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#category ul{
+    background-color: green; max-width: 1240px; width: 100%; height: 265px;
+    display: flex; justify-content: space-between;
+}
+#category ul li{
+    width: 290px; height: 100%; padding: 2px; box-sizing: border-box; overflow: hidden;
+    border-radius: 25px;
+    background-image: linear-gradient( 142deg , #5d60e2 0%, #09adec 45%, #4669fd 100%);
+}
+
+#category ul li a{ 
+    display: block; height: 100%; 
+    padding-left: 47px; padding-top: 63px;
+    box-sizing: border-box;
+    border-radius: 25px;
+    background: #07102a;
+    position: relative;
+}
+
+#category ul li a p{font-size: 25px; font-weight: 500; color: #fff; margin-top: 50px;}
+
+#category ul li:nth-child(1) a p{}
+#category ul li:nth-child(2) a p{}
+#category ul li:nth-child(3) a p{margin-top: 30px; line-height: 1.4;}
+#category ul li:nth-child(4) a p{}
+
+#category ul li a .ct_arrow_ico{position: absolute; right: 46px; bottom: 44px; opacity: 0; transition: all 0.3s;}
+#category ul li:hover a .ct_arrow_ico{bottom: 56px; opacity: 1;}
+
+#bdf_video{
+    padding-top: 125px;
+    padding-bottom: 62px;
+    background: url(../images/main/youtube_bg.png) no-repeat center / cover;
+}
+#bdf_video h2{
+    text-align: center; 
+    font-family: 'GmarketSans';
+    font-size: 35px; color: #4001c2; margin-bottom: 2px;
+}
+#bdf_video p{text-align: center; font-size: 20px; color: #4b3aa1; margin-bottom: 30px;}
+#bdf_video .youtube_wrap{
+    background-color: lime;
+    max-width: 920px; margin: 0 auto;
+    padding-bottom: 517px; position: relative;
+    border-radius: 25px;  overflow: hidden;
+}
+
+#bdf_video .youtube_wrap iframe{
+    position: absolute; left: 0; top: 0;
+    width: 100%; height: 100%;
+}
+
+#judge_wrap{ padding: 125px 15px 62px;}
+#judge_wrap .inner{ max-width: 1100px; margin: 0 auto;}
+#judge_wrap h2{
+    text-align: center; 
+    font-family: 'GmarketSans';
+    font-size: 35px; color: #4001c2; margin-bottom: 2px;
+}
+#judge_wrap p{
+    text-align: center; font-size: 20px; color: #4b3aa1; margin-bottom: 30px;
+}
+
+#judge_wrap .judge_swiper img{width: 100%;}
